@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header{
+    background-color: #000;
+    height: 10vh;
+    position: relative;
+    border-bottom: 1px solid white;
+}
+
+.speaker-view{
+    background-color: gray;
+    padding: 5px;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 5px;
+    border-radius: 5px;
+}
+
+.full-screen{
+    background-color: gray;
+    padding: 5px;
+    color: #fff;
+    display: inline-block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 5px;
+}
+
+/* main */
+
+main{
+    background-color: #000;
+    height: 80vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+
+footer{
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 10vh;
+}
