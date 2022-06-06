@@ -8,25 +8,28 @@
 
 header{
     background-color: #000;
-    height: 10vh;
+    height: 8vh;
     position: relative;
 }
 
 .speaker-view{
     background-color: gray;
     padding: 5px;
-    color: #fff;
     display: inline-block;
     position: absolute;
-    right: 100px;
+    right: 35px;
     top: 5px;
     border-radius: 5px;
+}
+
+.speaker-view a{
+    text-decoration: none;
+    color: #fff;
 }
 
 .full-screen{
     background-color: gray;
     padding: 5px;
-    color: #fff;
     display: inline-block;
     position: absolute;
     right: 5px;
@@ -34,11 +37,16 @@ header{
     border-radius: 5px;
 }
 
+.full-screen a{
+    text-decoration: none;
+    color: #fff;
+}
+
 /* main */
 
 main{
     background-color: #000;
-    height: 80vh;
+    height: 84vh;
 }
 
 .participants{
@@ -50,7 +58,7 @@ main{
 
 .img-cnt{
     width: calc(100% / 7);
-    height: calc(80vh / 5);
+    height: calc(83vh / 5);
     margin: auto;
     position: relative;
 }
@@ -71,21 +79,72 @@ main{
     padding-right: 5px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* footer */
 
 footer{
     background-color: rgba(0, 0, 0, 0.9);
-    height: 10vh;
+    height: 8vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.actions a i{
+    color: #fff;
+    font-size: 40px;
+}
+
+.actions h5{
+    color: #fff;
+    font-size: 16px;  
+}
+
+.mute{
+    display: inline-block;
+}
+
+.actions i{
+    font-size: 10px;
+    color: #fff;
+    display: inline-block;
+}
+
+.stop-video{
+    display: inline-block;
+}
+
+.menu div{
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu i{
+    color: #fff;
+}
+
+/* #share{
+    color: green;
+}
+    regola non renderizzata */
+
+.end-meeting{
+    background-color: rgba(233, 233, 233, 0.397);
+}
+
+.end-meeting h3{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 25px;
+}
+
+.end-meeting h3:hover{
+    background-color: red;
+    color: #000;
+    cursor: pointer;
 }
